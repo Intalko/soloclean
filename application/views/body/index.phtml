@@ -1,0 +1,801 @@
+                        <?php 
+                        $base_uri = $this->url->getBaseUri();
+                        $user = $this->session->get("auth");
+                        $name = $user['name'];
+                        ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>TELCOMATE</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- bootstrap-progressbar -->
+    <link href="../vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <!-- JQVMap -->
+    <link href="../vendors/jqvmap/dist/jqvmap.min.css" rel="stylesheet"/>
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-86743708-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</head>
+
+  <body>
+    <div class="container body">
+      <div class="main_container">
+       <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="col-sm-2"  style="float: left; margin-top: 18px;">
+                   <img src="<?php echo $this->url->get('../images/logo-2.png'); ?>" />
+              </div>
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-left">
+                    <li class="active"><a href="#">Dashboard</a></li>
+                    <li><a href="#">Campaign</a></li>
+                    <li><a href="#">Report</a></li>
+                    <li><a href="#">Learn</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                        <li>
+                          <a href="#" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                           Setting
+                          </a>
+                        </li>
+                        <li class="">
+                          <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                           Welcome, Julius
+                            <span class=" fa fa-angle-down"></span>
+                          </a>
+                          <ul class="dropdown-menu dropdown-usermenu pull-right">
+                            <li><a href="javascript:;"> Profile</a></li>
+                            <li>
+                              <a href="javascript:;">
+                                <span class="badge bg-red pull-right">50%</span>
+                                <span>Settings</span>
+                              </a>
+                            </li>
+                            <li><a href="javascript:;">Help</a></li>
+                            <li><a href="<?php echo $base_uri;?>user/logout/"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                          </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                          <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-bell"></i>
+
+                          </a>
+                        </li>
+                      </ul>
+                </div><!--/.nav-collapse -->
+
+              </div>
+       </nav>
+        <!-- page content -->
+        <div class="right_col" role="main" style="min-height: 1625px; margin-top: 59px;">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="x_panel">
+            <!-- top tiles -->
+
+
+			<div class="row top_tiles">
+                <h2>Your Last Campaign: E-Voucher Redemption  <small>04-10-2016  by Julius</small> <button class="btn btn-success btn-xs" type="button"><i class="fa fa-bar-chart-o"></i> Report</button></h2>
+                    <div class="animated flipInY col-lg-2 col-md-2 col-md-offset-1 col-sm-5 col-xs-10">
+                      <div class="tile-stats">
+                        <div class="x_title "> 
+                            <p class="text-center">Total SMS</p>
+                        </div>
+                          <div class="count text-center">50</div>
+                      </div>
+                    </div>
+                   <div class="animated flipInY col-lg-2 col-md-2 col-sm-5 col-xs-10">
+                      <div class="tile-stats">
+                        <div class="x_title "> 
+                            <p class="text-center">Delivered</p>
+                        </div>
+                          <div class="count text-center" >45</div>
+                      </div>
+                    </div>
+                      <div class="animated flipInY col-lg-2 col-md-2 col-sm-5 col-xs-10">
+                      <div class="tile-stats">
+                        <div class="x_title "> 
+                            <p class="text-center">Failed</p>
+                        </div>
+                          <div class="count text-center" >5</div>
+                      </div>
+                    </div>
+                      <div class="animated flipInY col-lg-2 col-md-2 col-sm-5 col-xs-10">
+                      <div class="tile-stats">
+                        <div class="x_title "> 
+                            <p class="text-center">Clicked</p>
+                        </div>
+                          <div class="count text-center" >38</div>
+                      </div>
+                    </div>
+                      <div class="animated flipInY col-lg-2 col-md-2 col-sm-5 col-xs-10">
+                      <div class="tile-stats">
+                        <div class="x_title "> 
+                            <p class="text-center">Acquisition</p>
+                        </div>
+                          <div class="count text-center" >14</div>
+                      </div>
+                    </div>
+              </div>
+          <!-- /top tiles -->
+            
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="dashboard_graph">
+
+                <div class="row x_title">
+                  <div class="col-md-6">
+                    <h3>Campaign Activities</h3>
+                  </div>
+                  <div class="col-md-6">
+                    <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                      <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                      <span>March 14, 2016 - March 19, 2016</span> <b class="caret"></b>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                  <div id="placeholder33" style="height: 260px; display: none" class="demo-placeholder"></div>
+                  <div style="width: 100%;">
+                    <div id="graph_line" class="demo-placeholder" style="width: 100%; height:270px;"></div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-12 bg-white">
+                  <div class="x_title">
+                    <h2>Campaign</h2>
+                    <div class="clearfix"></div>
+                  </div>
+
+                  <div class="col-md-12 col-sm-12 col-xs-4">
+                    <div>
+                      <p>Delivered</p>
+                      <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                          <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="80"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Clicked</p>
+                      <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                          <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="60"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <p>Acquisition</p>
+                      <div class="">
+                        <div class="progress progress_sm" style="width: 76%;">
+                          <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="40"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="clearfix"></div>
+              </div>
+            </div>
+
+          </div>
+          <br />
+
+          <div class="row">
+              
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="x_panel tile fixed_height_320 overflow_hidden">
+                <div class="x_title">
+                  <h2>Device Usage</h2>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <table class="" style="width:100%">
+                    <tr>
+                      <th style="width:37%;">
+                        
+                      </th>
+                      <th>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                          <p class="">Device</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                          <p class="">Progress</p>
+                        </div>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <canvas id="canvas1" height="140" width="140" style="margin: 15px 10px 10px 0"></canvas>
+                      </td>
+                      <td>
+                        <table class="tile_info">
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square blue"></i>IOS </p>
+                            </td>
+                            <td>30%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square green"></i>Android </p>
+                            </td>
+                            <td>10%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square purple"></i>Blackberry </p>
+                            </td>
+                            <td>20%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square aero"></i>Symbian </p>
+                            </td>
+                            <td>15%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square red"></i>Others </p>
+                            </td>
+                            <td>30%</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="x_panel tile fixed_height_320 overflow_hidden">
+                <div class="x_title">
+                  <h2>Browser Usage</h2>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <table class="" style="width:100%">
+                    <tr>
+                      <th style="width:37%;">
+                        <p></p>
+                      </th>
+                      <th>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                          <p class="">Device</p>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                          <p class="">Progress</p>
+                        </div>
+                      </th>
+                    </tr>
+                    <tr>
+                      <td>
+                        <canvas id="canvas2" height="140" width="140" style="margin: 15px 10px 10px 0"></canvas>
+                      </td>
+                      <td>
+                        <table class="tile_info">
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square blue"></i>Chrome </p>
+                            </td>
+                            <td>30%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square green"></i>Firefox </p>
+                            </td>
+                            <td>10%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square purple"></i>Safari </p>
+                            </td>
+                            <td>20%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square aero"></i>Opera </p>
+                            </td>
+                            <td>15%</td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p><i class="fa fa-square red"></i>Internet Explorer </p>
+                            </td>
+                            <td>30%</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-6 col-sm-4 col-xs-12">
+              <div class="x_panel">
+                <div class="x_title">
+                  <h2>Recent Campaign</h2>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
+                  <div class="dashboard-widget-content">
+
+                    <ul class="list-unstyled timeline widget">
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <div class="row"> 
+                                <div class="col-md-9">
+                                    <h2 class="title">One Step Ahead <small>03-18-2016  by Julius</small></h2>
+                                </div>
+                                <div class="col-md-3">
+                                <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"> </span>
+                                <button class="btn btn-success btn-xs" type="button"><i class="fa fa-bar-chart-o"></i>Report</button>
+                                </div>
+                            </div>
+                            <div class="byline">
+                             
+                            </div>
+                             <span class="label label-success">Delivered: 20</span>
+                             <span class="label label-success">Clicked 13</span>
+                             <span class="label label-success">Acquisition 10</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <div class="row"> 
+                                <div class="col-md-9">
+                                    <h2 class="title">Grow Them Great <small>03-20-2016  by Julius</small></h2>
+                                </div>
+                                <div class="col-md-3">
+                                <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"> </span>
+                                <button class="btn btn-success btn-xs" type="button"><i class="fa fa-bar-chart-o"></i>Report</button>
+                                </div>
+                            </div>
+                            <div class="byline">
+                             
+                            </div>
+                             <span class="label label-success">Delivered: 20</span>
+                             <span class="label label-success">Clicked 13</span>
+                             <span class="label label-success">Acquisition 10</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <div class="row"> 
+                                <div class="col-md-9">
+                                    <h2 class="title">Rewards Bandung <small>01-15-2016  by Julius</small></h2>
+                                </div>
+                                <div class="col-md-3">
+                                <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"> </span>
+                                <button class="btn btn-success btn-xs" type="button"><i class="fa fa-bar-chart-o"></i>Report</button>
+                                </div>
+                            </div>
+                            <div class="byline">
+                             
+                            </div>
+                             <span class="label label-success">Delivered: 20</span>
+                             <span class="label label-success">Clicked 13</span>
+                             <span class="label label-success">Acquisition 10</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <div class="row"> 
+                                <div class="col-md-9">
+                                    <h2 class="title">Redemption Manado <small>-01-10-2016  by Julius</small></h2>
+                                </div>
+                                <div class="col-md-3">
+                                <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"> </span>
+                                <button class="btn btn-success btn-xs" type="button"><i class="fa fa-bar-chart-o"></i>Report</button>
+                                </div>
+                            </div>
+                            <div class="byline">
+                             
+                            </div>
+                             <span class="label label-success">Delivered: 20</span>
+                             <span class="label label-success">Clicked 13</span>
+                             <span class="label label-success">Acquisition 10</span>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="block">
+                          <div class="block_content">
+                            <div class="row"> 
+                                <div class="col-md-9">
+                                    <h2 class="title">New Member Target <small>12-28-2015  by Julius</small></h2>
+                                </div>
+                                <div class="col-md-3">
+                                <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"> </span>
+                                <button class="btn btn-success btn-xs" type="button"><i class="fa fa-bar-chart-o"></i>Report</button>
+                                </div>
+                            </div>
+                            <div class="byline">
+                             
+                            </div>
+                             <span class="label label-success">Delivered: 20</span>
+                             <span class="label label-success">Clicked 13</span>
+                             <span class="label label-success">Acquisition 10</span>
+                          </div>
+                        </div>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-8 col-xs-12">
+
+              <div class="row">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="x_panel" style="height: 612px;">
+                    <div class="x_title">
+                      <h2>Visitors location</h2>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                      <div class="dashboard-widget-content">
+                       <div id="world-map-gdp" class="col-md-12 col-sm-12 col-xs-12" style="width:572px; height:230px;"></div>
+                        <div class="col-md-6 hidden-small" style="position: relative; left: 174px;">
+                          <h2 class="line_30">125.7k Views from 60 countries</h2>
+
+                          <table class="countries_list">
+                            <tbody>
+                              <tr>
+                                <td>United States</td>
+                                <td class="fs15 fw700 text-right">33%</td>
+                              </tr>
+                              <tr>
+                                <td>France</td>
+                                <td class="fs15 fw700 text-right">27%</td>
+                              </tr>
+                              <tr>
+                                <td>Germany</td>
+                                <td class="fs15 fw700 text-right">16%</td>
+                              </tr>
+                              <tr>
+                                <td>Spain</td>
+                                <td class="fs15 fw700 text-right">11%</td>
+                              </tr>
+                              <tr>
+                                <td>Britain</td>
+                                <td class="fs15 fw700 text-right">10%</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+     <!-- gauge.js -->
+    <script src="../vendors/gauge.js/dist/gauge.min.js"></script>
+    <!-- bootstrap-progressbar -->
+    <script src="../vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Skycons -->
+    <script src="../vendors/skycons/skycons.js"></script>
+    <!-- Flot -->
+    <script src="../vendors/Flot/jquery.flot.js"></script>
+    <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="../vendors/Flot/jquery.flot.time.js"></script>
+    <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="../vendors/DateJS/build/date.js"></script>
+    <!-- JQVMap -->
+    <script src="../vendors/jqvmap/dist/jquery.vmap.js"></script>
+    <script src="../vendors/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <script src="../vendors/jqvmap/examples/js/jquery.vmap.sampledata.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="../vendors/moment/moment.min.js"></script>
+    <script src="../vendors/datepicker/daterangepicker.js"></script>
+    <!-- morris.js -->
+    <script src="../vendors/raphael/raphael.min.js"></script>
+    <script src="../vendors/morris.js/morris.min.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+
+    <!-- morris.js -->
+    <script>
+      $(document).ready(function() {
+        
+        Morris.Line({
+          element: 'graph_line',
+          xkey: 'date',
+          ykeys: ['a', 'b', 'c'],
+          labels: ['Impression','Click','Acquisition'],
+          hideHover: 'auto',
+          lineColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+          data: [
+            {date: '10-04-2016', a: 20, b: 5, c: 0},
+            {date: '11-04-2016', a: 10, b: 30, c: 3},
+            {date: '12-04-2016', a: 5,  b: 10, c: 10},
+            {date: '13-04-2016', a: 5,  b: 10, c: 2},
+            {date: '14-04-2016', a: 20, b: 5, c: 5}
+          ],
+          resize: true
+        });
+      });
+    </script>
+    <!-- /morris.js -->
+
+    <!-- JQVMap -->
+    <script>
+      $(document).ready(function(){
+        $('#world-map-gdp').vectorMap({
+            map: 'world_en',
+            backgroundColor: null,
+            color: '#ffffff',
+            hoverOpacity: 0.7,
+            selectedColor: '#666666',
+            enableZoom: true,
+            showTooltip: true,
+            values: sample_data,
+            scaleColors: ['#E6F2F0', '#149B7E'],
+            normalizeFunction: 'polynomial'
+        });
+      });
+    </script>
+    <!-- /JQVMap -->
+
+    <!-- Skycons -->
+    <script>
+      $(document).ready(function() {
+        var icons = new Skycons({
+            "color": "#73879C"
+          }),
+          list = [
+            "clear-day", "clear-night", "partly-cloudy-day",
+            "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
+            "fog"
+          ],
+          i;
+
+        for (i = list.length; i--;)
+          icons.set(list[i], list[i]);
+
+        icons.play();
+      });
+    </script>
+    <!-- /Skycons -->
+
+    <!-- Device Chart -->
+    <script>
+      $(document).ready(function(){
+        var options = {
+          legend: false,
+          responsive: false
+        };
+
+        new Chart(document.getElementById("canvas1"), {
+          type: 'doughnut',
+          tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+          data: {
+            labels: [
+              "Symbian",
+              "Blackberry",
+              "Other",
+              "Android",
+              "IOS"
+            ],
+            datasets: [{
+              data: [15, 20, 30, 10, 30],
+              backgroundColor: [
+                "#BDC3C7",
+                "#9B59B6",
+                "#E74C3C",
+                "#26B99A",
+                "#3498DB"
+              ],
+              hoverBackgroundColor: [
+                "#CFD4D8",
+                "#B370CF",
+                "#E95E4F",
+                "#36CAAB",
+                "#49A9EA"
+              ]
+            }]
+          },
+          options: options
+        });
+      });
+    </script>
+    <!-- /Device Chart -->
+    
+    <!-- Browser Chart -->
+    <script>
+      $(document).ready(function(){
+        var options = {
+          legend: false,
+          responsive: false
+        };
+
+        new Chart(document.getElementById("canvas2"), {
+          type: 'doughnut',
+          tooltipFillColor: "rgba(51, 51, 51, 0.55)",
+          data: {
+            labels: [
+              "Opera",
+              "Safari",
+              "Internet Explorer",
+              "Firefox",
+              "Chrome"
+            ],
+            datasets: [{
+              data: [15, 20, 30, 10, 30],
+              backgroundColor: [
+                "#BDC3C7",
+                "#9B59B6",
+                "#E74C3C",
+                "#26B99A",
+                "#3498DB"
+              ],
+              hoverBackgroundColor: [
+                "#CFD4D8",
+                "#B370CF",
+                "#E95E4F",
+                "#36CAAB",
+                "#49A9EA"
+              ]
+            }]
+          },
+          options: options
+        });
+      });
+    </script>
+    <!-- /Browser Chart -->
+    
+    <!-- bootstrap-daterangepicker -->
+    <script>
+      $(document).ready(function() {
+
+        var cb = function(start, end, label) {
+          console.log(start.toISOString(), end.toISOString(), label);
+          $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+        };
+
+        var optionSet1 = {
+          startDate: moment().subtract(29, 'days'),
+          endDate: moment(),
+          minDate: '01/01/2012',
+          maxDate: '12/31/2020',
+          dateLimit: {
+            days: 60
+          },
+          showDropdowns: true,
+          showWeekNumbers: true,
+          timePicker: false,
+          timePickerIncrement: 1,
+          timePicker12Hour: true,
+          ranges: {
+            'Today': [moment(), moment()],
+            'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+            'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+            'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+            'This Month': [moment().startOf('month'), moment().endOf('month')],
+            'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+          },
+          opens: 'left',
+          buttonClasses: ['btn btn-default'],
+          applyClass: 'btn-small btn-primary',
+          cancelClass: 'btn-small',
+          format: 'MM/DD/YYYY',
+          separator: ' to ',
+          locale: {
+            applyLabel: 'Submit',
+            cancelLabel: 'Clear',
+            fromLabel: 'From',
+            toLabel: 'To',
+            customRangeLabel: 'Custom',
+            daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+            monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            firstDay: 1
+          }
+        };
+        $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+        $('#reportrange').daterangepicker(optionSet1, cb);
+        $('#reportrange').on('show.daterangepicker', function() {
+          console.log("show event fired");
+        });
+        $('#reportrange').on('hide.daterangepicker', function() {
+          console.log("hide event fired");
+        });
+        $('#reportrange').on('apply.daterangepicker', function(ev, picker) {
+          console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
+        });
+        $('#reportrange').on('cancel.daterangepicker', function(ev, picker) {
+          console.log("cancel event fired");
+        });
+        $('#options1').click(function() {
+          $('#reportrange').data('daterangepicker').setOptions(optionSet1, cb);
+        });
+        $('#options2').click(function() {
+          $('#reportrange').data('daterangepicker').setOptions(optionSet2, cb);
+        });
+        $('#destroy').click(function() {
+          $('#reportrange').data('daterangepicker').remove();
+        });
+      });
+    </script>
+    <!-- /bootstrap-daterangepicker -->
+  </body>
+</html>
