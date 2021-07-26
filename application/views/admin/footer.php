@@ -1,3 +1,3 @@
 <footer class="main-footer">
-  <strong>Copyright &copy; <?= date('Y')?> Liez Florist.</strong> All rights reserved.
+  <strong>Copyright &copy; <?= date('Y')?> Almega Mulia.</strong> All rights reserved.
 </footer>
