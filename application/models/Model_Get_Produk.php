@@ -19,10 +19,11 @@ class Model_Get_Produk extends CI_Model {
 	}
 	
 	function Join_Select ($table) {
-  	$this->db->select('produk.id as id, kategori.nama_kategori, produk.nama_produk, penjelasan');
+  	$this->db->select('produk.id as id, kategori.nama_kategori, produk.nama_produk, penjelasan, produk.date_created');
     $this->db->from($table);
 	$this->db->join('kategori', $table.'.id_kategori = kategori.id','left');
   	$this->db->where('produk.deleted = ', '0');
+	$this->db->order_by('produk.date_created', 'DESC');
   	$result = $this->db->get();
     $i = 0;
 		if ($result->num_rows() > 0) {

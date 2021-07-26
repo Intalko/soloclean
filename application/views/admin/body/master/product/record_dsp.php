@@ -29,6 +29,7 @@
                 <tr>
                   <th>Kategori</th>
                   <th>Produk</th>
+                  <th>Tanggal Buat</th>
                   <th>Aksi</th>
                 </tr>
               </thead>
@@ -38,6 +39,7 @@
                     <tr>
                       <td><?=$val['nama_kategori']?></td>
                       <td><?=$val['nama_produk']?></td>
+                      <td><?=$val['date_created']?></td>
                       <td align="center">
                         <a href="<?=base_url()?>Admin/Seo/Perbarui/1/<?=$val['id']?>" class="btn btn-primary">Perbarui SEO</a>
                         <a href="<?=base_url()?>Admin/Product/Perbarui/<?=$val['id']?>" class="btn btn-primary">Perbarui</a>
