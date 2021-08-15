@@ -166,7 +166,7 @@ strong, b{
 }
 .badge-custom-secondary{
     color: #fff;
-    background-color: #ed1c24;
+    background-color: #de2132;
 }
 .badge-custom-primary{
     color: #fff;
@@ -197,13 +197,13 @@ strong, b{
     background: #01020c;
 }
 .secondary-bg{
-    background: #ed1c24;
+    background: #de2132;
 }
 .color-primary{
     color: #01020c;
 }
 .color-secondary{
-    color: #ed1c24
+    color: #de2132
 }
 .white-bg{
     background: #ffffff;
@@ -265,14 +265,14 @@ strong, b{
 }
 
 .secondary-btn{
-    background: #ed1c24;
-    border-color: #ed1c24;
+    background: #de2132;
+    border-color: #de2132;
     color: #ffffff;
 }
 .secondary-btn:hover{
-    border-color: #ed1c24;
+    border-color: #de2132;
     background: transparent;
-    color: #ed1c24;
+    color: #de2132;
     border-radius: 30px;
 }
 
@@ -379,7 +379,7 @@ select.form-control.has-value{
 
 .section-heading h2 span{
     font-weight: 700;
-    color: #ed1c24;
+    color: #de2132;
 }
 .opacity-6{
     opacity: 0.6;
@@ -618,7 +618,7 @@ select.form-control.has-value{
 }
 .hero-content-left h1 span{
     font-weight: 700;
-    color: #ed1c24;
+    color: #de2132;
 }
 @media (min-width: 992px){
     .hero-animation-img {
@@ -1876,7 +1876,7 @@ select.form-control.has-value{
     left: 0;
     font-family: 'themify';
     font-weight: 400;
-    color: #ed1c24;
+    color: #de2132;
 }
 
 /*feature new style*/
@@ -1913,7 +1913,7 @@ select.form-control.has-value{
     margin-right: 0;
 }
 .feature-tab li a span{
-    color: #ed1c24;
+    color: #de2132;
     margin-right: 5px;
 }
 
@@ -1951,7 +1951,7 @@ select.form-control.has-value{
     text-decoration: none;
 }
 .feature-tab-circle li a.active span{
-    background: #ed1c24;
+    background: #de2132;
     color: #ffffff;
     border-color: #ebebeb !important;
 }
@@ -2108,7 +2108,7 @@ select.form-control.has-value{
     -webkit-animation: ripple-white 1s linear infinite;
     animation: ripple-white 1s linear infinite;
     -webkit-transition: .5s;
-    background-color: #ed1c24;
+    background-color: #de2132;
 }
 @-webkit-keyframes ripple-white {
     0% {
@@ -2143,7 +2143,7 @@ select.form-control.has-value{
 
 .highlight-text .number {
     font-size: 6em;
-    color: #ed1c24;
+    color: #de2132;
     line-height: 90%;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
@@ -2195,7 +2195,7 @@ select.form-control.has-value{
 .single-counter span{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-    color: #ed1c24;
+    color: #de2132;
     font-size: 35px;
     line-height: 28px;
 }
@@ -2305,7 +2305,7 @@ select.form-control.has-value{
 .single-faq h5 span{
     font-size: 20px;
     font-weight: 700;
-    color: #ed1c24;
+    color: #de2132;
     margin-right: 5px;
 }
 
@@ -2385,7 +2385,7 @@ blockquote:before {
     outline: none;
 }
 .dot-indicator.owl-theme button.owl-dot.active span{
-    background: #ed1c24;
+    background: #de2132;
     border: 2px solid transparent;
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
@@ -2409,10 +2409,10 @@ blockquote:before {
 .arrow-indicator.owl-theme .owl-nav [class*=owl-] span{
     font-size: 20px;
     line-height: 20px;
-    color: #ed1c24;
+    color: #de2132;
 }
 .arrow-indicator.owl-theme .owl-nav [class*=owl-]:hover{
-    background: #ed1c24 !important;
+    background: #de2132 !important;
 }
 .arrow-indicator.owl-theme .owl-nav [class*=owl-]:hover span{
     color: #ffffff !important;
@@ -2477,7 +2477,7 @@ blockquote:before {
     color: #565656;
 }
 .list-creative .address::before {
-    background: #ed1c24;
+    background: #de2132;
 }
 .list-creative .phone::before {
     background: #d80000;
@@ -2490,7 +2490,7 @@ blockquote:before {
     text-decoration: none;
 }
 .list-terms-medium a:hover {
-    color: #ed1c24;
+    color: #de2132;
 }
 
 .google-map{
@@ -2507,7 +2507,7 @@ blockquote:before {
 }
 
 .footer-address li a{
-    color: #ed1c24;
+    color: #de2132;
     opacity: 0.8;
     text-decoration: none;
 }
@@ -2575,6 +2575,6 @@ blockquote:before {
     padding: 6px;
 }
 .social-list li a, .copyright-text a{
-    color: #ed1c24;
+    color: #de2132;
     opacity: 0.9;
 }
