@@ -203,7 +203,7 @@
     <!--features section start-->
     <section id="features" class="imageblock-section switchable">
         <div class="imageblock-section-img col-lg-5 col-md-5">
-            <div class="background-image-holder" style="background: url('<?=base_url()?>includes/frontend/img/bg-image-4.jpg')no-repeat center center / cover; opacity: 1;">  </div>
+            <div class="background-image-holder" style="background: url('<?=base_url()?>includes/frontend/img/kv-background-product.jpg')no-repeat center center / cover; opacity: 1;">  </div>
         </div>
         <div class="container">
             <div class="row">
@@ -379,7 +379,7 @@
 
     <!--download section start-->
     <section class="download-section ptb-100 background-img"
-             style="background: url('<?=base_url()?>includes/frontend/img/kv-background-product.jpg')no-repeat center center / cover">
+             style="background: url('<?=base_url()?>includes/frontend/img/.jpg')no-repeat center center / cover">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-7 col-lg-7">
