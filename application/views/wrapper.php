@@ -65,11 +65,8 @@
 
             <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link page-scroll dropdown-toggle" href="<?=base_url()?>#" id="navbarDropdownHome" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Home
-                        </a>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="<?=base_url()?>#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="<?=base_url()?>#features">Tentang Solo</a>
@@ -382,7 +379,7 @@
 
     <!--download section start-->
     <section class="download-section ptb-100 background-img"
-             style="background: url('<?=base_url()?>includes/frontend/img/bg-image.jpg')no-repeat center center / cover">
+             style="background: url('<?=base_url()?>includes/frontend/img/kv-background-product.jpg')no-repeat center center / cover">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-7 col-lg-7">
@@ -397,7 +394,7 @@
                 </div>
                 <div class="col-md-5 col-lg-5">
                     <div class="download-img text-center">
-                        <img src="<?=base_url()?>includes/frontend/img/download-app.png" alt="download app" class="img-fluid"/>
+                        <img src="<?=base_url()?>includes/frontend/img/kv-product.jpg" alt="solo product" class="img-fluid"/>
                     </div>
                 </div>
             </div>
