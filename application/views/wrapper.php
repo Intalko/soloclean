@@ -379,7 +379,7 @@
 
     <!--download section start-->
     <section class="download-section ptb-100 background-img"
-             style="background: url('<?=base_url()?>includes/frontend/img/.jpg')no-repeat center center / cover">
+             style="background: url('<?=base_url()?>includes/frontend/img/bg-image-4.jpg')no-repeat center center / cover">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-7 col-lg-7">
@@ -429,13 +429,13 @@
                         <div class="row">
                             <div class="col-sm-6 col-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter name"
+                                    <input type="text" class="form-control" name="name" placeholder="Nama Anda"
                                            required="required">
                                 </div>
                             </div>
                             <div class="col-sm-6 col-12">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" name="email" placeholder="Enter email"
+                                    <input type="email" class="form-control" name="email" placeholder="Email Anda"
                                            required="required">
                                 </div>
                             </div>
@@ -444,13 +444,13 @@
                             <div class="col-sm-6 col-12">
                                 <div class="form-group">
                                     <input type="text" name="phone" value="" class="form-control" id="phone"
-                                           placeholder="Your Phone">
+                                           placeholder="Nomor Telefon">
                                 </div>
                             </div>
                             <div class="col-sm-6 col-12">
                                 <div class="form-group">
                                     <input type="text" name="company" value="" size="40" class="form-control"
-                                           id="company" placeholder="Your Company">
+                                           id="company" placeholder="Perusahaan Anda">
                                 </div>
                             </div>
                         </div>
@@ -458,14 +458,14 @@
                             <div class="col-12">
                                 <div class="form-group">
                                     <textarea name="message" id="message" class="form-control" rows="7" cols="25"
-                                              placeholder="Message"></textarea>
+                                              placeholder="Pesan"></textarea>
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 mt-3">
                                 <button type="submit" class="btn secondary-btn" id="btnContactUs">
-                                    Send Message
+                                    Kirim Pesan
                                 </button>
                             </div>
                         </div>
