@@ -389,10 +389,8 @@
                     <div class="download-content text-white section-heading">
                     <h2>Beli produk <span>Solo Clean</span> sekarang</h2>
                         <p class="lead">Dapatkan promo-promo menarik dengan berbelanja di markeplace kesayangan kalian dan pastikan kalian selalu sedia produk Solo Clean dimanapun kalian berada. </p>
-
                         <div class="download-btn pt-2">
-                            <a href="<?=base_url()?>#" class="btn google-play-btn mr-3"><span class="ti-android"></span> Tokopedia
-                                Play</a>
+                            <a href="<?=base_url()?>#" class="btn google-play-btn mr-3"><span class="ti-android"></span> Tokopedia</a>
                             <a href="<?=base_url()?>#" class="btn app-store-btn"><span class="ti-apple"></span> Shopee</a>
                         </div>
                     </div>
