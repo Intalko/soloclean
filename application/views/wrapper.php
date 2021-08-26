@@ -70,30 +70,18 @@
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Home
                         </a>
-                        <div class="dropdown-menu submenu" aria-labelledby="navbarDropdownHome">
-                            <a class="dropdown-item" href="<?=base_url()?>index.html">Demo Template 1</a>
-                            <a class="dropdown-item" href="<?=base_url()?>index-2.html">Demo Template 2</a>
-                            <a class="dropdown-item" href="<?=base_url()?>index-3.html">Demo Template 3</a>
-                            <a class="dropdown-item" href="<?=base_url()?>index-4.html">Demo Template 4</a>
-                            <a class="dropdown-item" href="<?=base_url()?>index-5.html">Demo Template 5</a>
-                            <a class="dropdown-item" href="<?=base_url()?>index-6.html">Demo Template 6</a>
-                            <a class="dropdown-item" href="<?=base_url()?>index-7.html">Demo Template 7</a>
-                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="<?=base_url()?>#features">Features</a>
+                        <a class="nav-link page-scroll" href="<?=base_url()?>#features">Tentang Solo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="<?=base_url()?>#specs">Specs</a>
+                        <a class="nav-link page-scroll" href="<?=base_url()?>#product">Produk Solo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="<?=base_url()?>#product">Product</a>
+                        <a class="nav-link page-scroll" href="<?=base_url()?>#product">Beli Produk Solo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="<?=base_url()?>#faq">Faq</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="<?=base_url()?>#contact">Contact</a>
+                        <a class="nav-link page-scroll" href="<?=base_url()?>#contact">Hubungi Kami</a>
                     </li>
 
                 </ul>
@@ -126,9 +114,8 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-6 col-lg-6">
                     <div class="hero-content-left pt-5">
-                        <h1>We sell <span>Best quality </span> <br> Product</h1>
-                        <p class="lead">Conveniently generate multifunctional markets and B2C vortals. Uniquely enable
-                            inexpensive materials rather than sticky products.</p>
+                        <h1>Rasakan kebaikan dari produk <span> Sanitasi Solo </span></h1>
+                        <p class="lead">Kenyamanan dan kebersihan merupakan modal utama kita untuk dapat melangkah lebih jauh.</p>
 
                         <!--core feature list start-->
                         <ul class="list-inline py-4 core-feature-list d-flex">
@@ -136,19 +123,19 @@
                                 <div class="icon-box mb-2 mx-auto primary-bg">
                                     <span class="ti-announcement text-white"></span>
                                 </div>
-                                App notifications
+                                Aman untuk Semua Kalangan
                             </li>
                             <li class="list-inline-item text-center">
                                 <div class="icon-box mb-2 mx-auto primary-bg">
                                     <span class="ti-alarm-clock text-white"></span>
                                 </div>
-                                Alarms Clock
+                                Paraben Free
                             </li>
                             <li class="list-inline-item text-center">
                                 <div class="icon-box mb-2 mx-auto primary-bg">
                                     <span class="ti-location-pin text-white"></span>
                                 </div>
-                                Location tracker
+                                Antibacterial
                             </li>
                         </ul>
                         <!--core feature list end-->
@@ -176,10 +163,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-md-8">
                     <div class="section-heading text-center mb-5">
-                        <h2>Core features for <span>smart</span> people</h2>
+                        <h2>LEBIH BAIK <span>SOLO</span> </h2>
                         <p class="lead">
-                            Following reasons show advantages of adding ProLex to your lead pages, demos and
-                            checkouts
+                            SOLO Clean merupakan brand produk yang berfokus pada kebutuhan higienis dan sanitasi yang digunakan untuk keperluan pribadi maupun rumah tangga.
                         </p>
                     </div>
                 </div>
@@ -190,8 +176,8 @@
                         <div class="circle-icon mb-2">
                             <span class="ti-vector color-primary icon-lg"></span>
                         </div>
-                        <h5>Clean Design</h5>
-                        <p>Increase sales by showing true dynamics of your website.</p>
+                        <h5>Berbahan Dasar Natural</h5>
+                        <p>Produk Solo Clean dapat digunakan oleh semua kalangan</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
@@ -199,8 +185,8 @@
                         <div class="circle-icon mb-2">
                             <span class="ti-lock color-primary icon-lg"></span>
                         </div>
-                        <h5>Secure Data</h5>
-                        <p>Build your online store’s trust using Social Proof & Urgency.</p>
+                        <h5>Non-Toxic</h5>
+                        <p>Produk Solo Clean dinyatakan bebas dari bahan beracun.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
@@ -208,8 +194,8 @@
                         <div class="circle-icon mb-2">
                             <span class="ti-alert color-primary icon-lg"></span>
                         </div>
-                        <h5>Notification Alert</h5>
-                        <p>Realize importance of social proof in customer’s purchase decision.</p>
+                        <h5>Standar Laboratorium</h5>
+                        <p>Seluruh produk Solo Clean dihasilkan melalui standar laboratorium</p>
                     </div>
                 </div>
             </div>
@@ -226,7 +212,7 @@
             <div class="row">
                 <div class="col-lg-7 col-md-7">
                     <div class="feature-contents section-heading ptb-100">
-                        <h2>Key <span>Features</span> of Prolex</h2>
+                        <h2>Apa saja Kelebihan <span>SOLO</span> Hand Soap</h2>
 
                         <div class="feature-content-wrap">
                             <div class="tab-content feature-tab-content">
@@ -301,56 +287,14 @@
     </section>
     <!--features section end-->
 
-    <!--our highlight promo section start-->
-    <section class="highlight-section ptb-100 gray-light-bg">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <div class="section-heading text-center mb-4">
-                        <h2>Up to <span>10 Days</span> of Battery Life</h2>
-                        <p class="lead">35-hour GPS continuous running mode</p>
-                    </div>
-                </div>
-            </div>
-            <div class="weight-img">
-                <img src="<?=base_url()?>includes/frontend/img/watch-floating-view.png" alt="watch" class="img-fluid"/>
-            </div>
-            <!--highlight text start-->
-            <div class="row justify-content-around pt-3">
-                <div class="col-md-6">
-                    <div class="highlight-text w-75 m-auto text-center">
-                        <span class="number"><sup>Up to</sup>10<sup>days</sup></span>
-                        <div class="px-4">
-                            <h5 class="mb-2">Battery life</h5>
-                            <p>Seamlessly brand principle-centered sources rather than mission was critical human
-                                capital. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="highlight-text  w-75 m-auto text-center">
-                        <span class="number">45<sup>hours</sup></span>
-                        <div class="px-4">
-                            <h5 class="mb-2">GPS running mode</h5>
-                            <p>Synergistically enhance team driven potentialities before extensive e-markets globally. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--highlight text end-->
-        </div>
-    </section>
-    <!--our highlight promo section end-->
-
     <!--products section start-->
     <section id="product" class="ptb-100 gray-light-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="section-heading text-center mb-4">
-                        <h2>We have <span>quality</span> products</h2>
-                        <p class="lead">Credibly synthesize multimedia based networks vis-a-vis top-line growth
-                            strategies. Continually leverage existing worldwide interfaces </p>
+                        <h2>Beli produk <span>Solo Clean</span> sekarang</h2>
+                        <p class="lead">Dapatkan promo-promo menarik dengan berbelanja di markeplace kesayangan kalian dan pastikan kalian selalu sedia produk Solo Clean dimanapun kalian berada. </p>
                     </div>
                 </div>
             </div>
@@ -443,15 +387,13 @@
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-7 col-lg-7">
                     <div class="download-content text-white section-heading">
-                        <h2 class="text-white"><span>Download</span> our app</h2>
-                        <p class="lead">Objectively deliver professional value with diverse web-readiness.
-                            Collaboratively transition wireless customer service without goal-oriented catalysts for
-                            change. Globally actualize viral products via ubiquitous data. Uniquely brand efficient infomediaries vis-a-vis revolutionary results. Completely.</p>
+                    <h2>Beli produk <span>Solo Clean</span> sekarang</h2>
+                        <p class="lead">Dapatkan promo-promo menarik dengan berbelanja di markeplace kesayangan kalian dan pastikan kalian selalu sedia produk Solo Clean dimanapun kalian berada. </p>
 
                         <div class="download-btn pt-2">
-                            <a href="<?=base_url()?>#" class="btn google-play-btn mr-3"><span class="ti-android"></span> Google
+                            <a href="<?=base_url()?>#" class="btn google-play-btn mr-3"><span class="ti-android"></span> Tokopedia
                                 Play</a>
-                            <a href="<?=base_url()?>#" class="btn app-store-btn"><span class="ti-apple"></span> App Store</a>
+                            <a href="<?=base_url()?>#" class="btn app-store-btn"><span class="ti-apple"></span> Shopee</a>
                         </div>
                     </div>
                 </div>
@@ -472,16 +414,16 @@
                 <div class="col-md-5">
                     <div class="section-heading">
                         <h3>Contact with us</h3>
-                        <p>It's very easy to get in touch with us. Just use the contact form or pay us a
-                            visit for a coffee at the office. Dynamically innovate competitive technology after an
-                            expanded array of leadership.</p>
+                        <p>Sangat mudah untuk menghubungi kami. Cukup gunakan formulir kontak atau kunjungi kami dengan alamat dibawah ini.<br/>
+                        Produk dari PT Kirana Almega Mulia </p>
                     </div>
                     <div class="footer-address pt-4">
                         <h6><strong>Head Office</strong></h6>
-                        <p>121 King St, Melbourne VIC 3000, Australia</p>
+                        <p>Komplek Multiguna Blok B1 No. 3A
+                        Serpong Utara, Tangerang Selatan - Banten 15325</p>
                         <ul>
-                            <li><span>Phone: +61 2 8376 6284</span></li>
-                            <li><span>Email : <a href="<?=base_url()?>mailto:hello@yourdomain.com">hello@yourdomain.com</a></span>
+                            <li><span>Hubungi kami: 021 - 5312 5355 </span></li>
+                            <li><span>Email : <a href="<?=base_url()?>mailto:infosoloclean@gmail.com">infosoloclean@gmail.com</a></span>
                             </li>
                         </ul>
                     </div>
@@ -553,20 +495,14 @@
                 <div class="col-lg-4 mb-3 mb-lg-0">
                     <div class="footer-nav-wrap text-white">
                         <img src="<?=base_url()?>includes/frontend/img/logo-white-red.png" alt="footer logo" width="120" class="img-fluid mb-3">
-                        <p>Holisticly empower premium architectures without value-added ideas. Seamlessly evolve
-                            cross-platform experiences.</p>
+                        <p>Rasakan kebaikan dari produk Sanitasi SOLO karena Lebih Baik SOLO</p>
 
                         <div class="social-list-wrap">
                             <ul class="social-list list-inline list-unstyled">
-                                <li class="list-inline-item"><a href="<?=base_url()?>#" target="_blank" title="Facebook"><span
+                                <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100069411781346" target="_blank" title="Facebook"><span
                                         class="ti-facebook"></span></a></li>
-                                <li class="list-inline-item"><a href="<?=base_url()?>#" target="_blank" title="Twitter"><span
-                                        class="ti-twitter"></span></a></li>
-                                <li class="list-inline-item"><a href="<?=base_url()?>#" target="_blank"
-                                                                title="Instagram"><span class="ti-instagram"></span></a>
-                                </li>
-                                <li class="list-inline-item"><a href="<?=base_url()?>#" target="_blank"
-                                                                title="printerst"><span class="ti-pinterest"></span></a>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/solocleanid/" target="_blank"
+                                        title="Instagram"><span class="ti-instagram"></span></a>
                                 </li>
                             </ul>
                         </div>
@@ -574,12 +510,12 @@
                 </div>
                 <div class="col-lg-4 ml-auto mb-4 mb-lg-0">
                     <div class="footer-nav-wrap text-white">
-                        <h5 class="mb-3 text-white">Others Links</h5>
+                        <h5 class="mb-3 text-white">Link Lainnya</h5>
                         <ul class="list-unstyled">
-                            <li class="mb-2"><a href="<?=base_url()?>#">About Us</a></li>
-                            <li class="mb-2"><a href="<?=base_url()?>#">Contact Us</a></li>
-                            <li class="mb-2"><a href="<?=base_url()?>#">Privacy Policy</a></li>
-                            <li class="mb-2"><a href="<?=base_url()?>#">Terms and Conditions</a></li>
+                            <li class="mb-2"><a href="<?=base_url()?>#">Tentang Solo</a></li>
+                            <li class="mb-2"><a href="<?=base_url()?>#">Produk Solo</a></li>
+                            <li class="mb-2"><a href="<?=base_url()?>#">Beli Produk Solo</a></li>
+                            <li class="mb-2"><a href="<?=base_url()?>#">Hubungi Kami</a></li>
                         </ul>
                     </div>
                 </div>
