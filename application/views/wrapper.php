@@ -211,13 +211,9 @@
                         <div class="feature-content-wrap">
                             <div class="tab-content feature-tab-content">
                                 <div class="tab-pane active" id="tab6-1">
-                                    <p>Synergistically provide access to pandemic testing
-                                        procedures via
-                                        standards compliant interfaces. Assertively underwhelm enabled
-                                        technologies vis-a-vis B2B.</p>
-                                    <p>Credibly productize cross-platform growth strategies via
-                                        functionalized relationships. Efficiently reinvent cross-media infomediaries
-                                        through mission-critical manufactured products conveniently.</p>
+                                <p>Solo Hand Soap bebas alkohol sehingga aman digunakan untuk orang dengan kulit sensitif.</p> 
+                                <p>Memiliki 4 varian aroma wangi strawberry, green tea, lemon dan green apple.</p>
+
                                 </div>
                             </div>
                             <ul class="nav nav-tabs feature-tab feature-tab-circle" data-tabs="tabs">
@@ -225,25 +221,26 @@
                                     <a class="active h6" href="<?=base_url()?>#tab6-1" data-toggle="tab">
                                         <span><img src="<?=base_url()?>includes/frontend/img/tentang-icon1.png" width="40" alt="home-icon1" class="img-fluid features-icon"></span>
                                     </a>
-                                    Heart Monitor
+                                    99.9% Efektif <br/>Membunuh Kuman
+
                                 </li>
                                 <li class="nav-item">
                                     <a class="active h6" href="<?=base_url()?>#tab6-2" data-toggle="tab">
                                         <span><img src="<?=base_url()?>includes/frontend/img/tentang-icon2.png" width="40" alt="home-icon2" class="img-fluid features-icon"></span>
                                     </a>
-                                    Blood Pressure
+                                    Lembut di tangan
                                 </li>
                                 <li class="nav-item">
                                     <a class="active h6" href="<?=base_url()?>#tab6-3" data-toggle="tab">
                                         <span><img src="<?=base_url()?>includes/frontend/img/tentang-icon3.png" width="40" alt="home-icon3" class="img-fluid features-icon"></span>
                                     </a>
-                                    Alarm Alert
+                                    Non-alkohol
                                 </li>
                                 <li class="nav-item">
                                     <a class="active h6" href="<?=base_url()?>#tab6-4" data-toggle="tab">
                                         <span><img src="<?=base_url()?>includes/frontend/img/tentang-icon4.png" width="40" alt="home-icon4" class="img-fluid features-icon"></span>
                                     </a>
-                                    Fingerprint lock
+                                    Aroma Menyegarkan
                                 </li>
                             </ul>
 
@@ -351,15 +348,15 @@
 
     <!--download section start-->
     <section class="download-section ptb-100 background-img"
-             style="background: url('<?=base_url()?>includes/frontend/img/bg-image-4.jpg')no-repeat center center / cover">
+             style="background: url('<?=base_url()?>includes/frontend/img/kv-background-marketplace.jpg')no-repeat center center / cover">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-md-7 col-lg-7">
                     <div class="download-content text-white section-heading">
-                    <h2>Beli produk <span>Solo Clean</span> sekarang</h2>
+                    <h2 style="color:white">Beli produk <span>Solo Clean</span> sekarang</h2>
                         <p class="lead">Dapatkan promo-promo menarik dengan berbelanja di markeplace kesayangan kalian dan pastikan kalian selalu sedia produk Solo Clean dimanapun kalian berada. </p>
                         <div class="download-btn pt-2">
-                            <a href="https://www.tokopedia.com/soloclean?source=universe&st=product" target="_blank" class="btn custom-btn"><img src="<?=base_url()?>includes/frontend/img/icon-tokopedia-putih.png" width="100" alt="logo" class="img-fluid"></a>
+                            <a href="https://www.tokopedia.com/soloclean?source=universe&st=product" target="_blank" class="btn custom-btn"><img src="<?=base_url()?>includes/frontend/img/icon-tokopedia-putih.png" width="100" alt="logo" class="img-fluid"></a>&nbsp;&nbsp; &nbsp;&nbsp; 
                             <a href="https://shopee.co.id/solocleanofficial" target="_blank" class="btn custom-btn"><img src="<?=base_url()?>includes/frontend/img/icon-shopee-putih.png" width="100" alt="logo" class="img-fluid"></a>
                         </div>
                     </div>
