@@ -72,9 +72,6 @@
                         <a class="nav-link page-scroll" href="<?=base_url()?>#features">Tentang Solo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="<?=base_url()?>#product">Produk Solo</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link page-scroll" href="<?=base_url()?>#product">Beli Produk Solo</a>
                     </li>
                     <li class="nav-item">
@@ -387,8 +384,8 @@
                     <h2>Beli produk <span>Solo Clean</span> sekarang</h2>
                         <p class="lead">Dapatkan promo-promo menarik dengan berbelanja di markeplace kesayangan kalian dan pastikan kalian selalu sedia produk Solo Clean dimanapun kalian berada. </p>
                         <div class="download-btn pt-2">
-                            <a href="<?=base_url()?>#" class="btn google-play-btn mr-3"><span class="ti-android"></span> Tokopedia</a>
-                            <a href="<?=base_url()?>#" class="btn app-store-btn"><span class="ti-apple"></span> Shopee</a>
+                            <a href="https://www.tokopedia.com/soloclean?source=universe&st=product" target="_blank" class="btn google-play-btn mr-3"> Tokopedia</a>
+                            <a href="https://shopee.co.id/solocleanofficial" target="_blank" class="btn app-store-btn"> Shopee</a>
                         </div>
                     </div>
                 </div>
