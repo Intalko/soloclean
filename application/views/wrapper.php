@@ -23,7 +23,7 @@
     <title>Solo Clean in Development</title>
 
     <!--favicon icon-->
-    <link rel="icon" href="<?=base_url()?>img/favicon.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="<?=base_url()?>includes/frontend/img/favicon.png" type="image/png" sizes="32x32">
 
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7COpen+Sans&display=swap"
@@ -115,19 +115,19 @@
                         <ul class="list-inline py-4 core-feature-list d-flex">
                             <li class="list-inline-item text-center">
                                 <div class="icon-box mb-2 mx-auto primary-bg">
-                                    <span class="ti-announcement text-white"></span>
+                                    <span><img src="<?=base_url()?>includes/frontend/img/home-icon1.png" width="40" alt="home-icon1" class="img-fluid"></span>
                                 </div>
                                 Aman untuk Semua Kalangan
                             </li>
                             <li class="list-inline-item text-center">
                                 <div class="icon-box mb-2 mx-auto primary-bg">
-                                    <span class="ti-alarm-clock text-white"></span>
+                                    <span><img src="<?=base_url()?>includes/frontend/img/home-icon2.png" width="40" alt="home-icon2" class="img-fluid"></span>
                                 </div>
                                 Paraben Free
                             </li>
                             <li class="list-inline-item text-center">
                                 <div class="icon-box mb-2 mx-auto primary-bg">
-                                    <span class="ti-location-pin text-white"></span>
+                                    <span><img src="<?=base_url()?>includes/frontend/img/home-icon3.png" width="40" alt="home-icon3" class="img-fluid"></span>
                                 </div>
                                 Antibacterial
                             </li>
@@ -168,7 +168,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
                         <div class="circle-icon mb-2">
-                            <span class="ti-vector color-primary icon-lg"></span>
+                            <span><img src="<?=base_url()?>includes/frontend/img/spot-icon1.png" width="40" alt="home-icon1" class="img-fluid"></span>
                         </div>
                         <h5>Berbahan Dasar Natural</h5>
                         <p>Produk Solo Clean dapat digunakan oleh semua kalangan</p>
@@ -177,7 +177,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
                         <div class="circle-icon mb-2">
-                            <span class="ti-lock color-primary icon-lg"></span>
+                            <span><img src="<?=base_url()?>includes/frontend/img/spot-icon2.png" width="40" alt="home-icon1" class="img-fluid"></span>
                         </div>
                         <h5>Non-Toxic</h5>
                         <p>Produk Solo Clean dinyatakan bebas dari bahan beracun.</p>
@@ -186,7 +186,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="single-promo single-promo-hover single-promo-1 rounded text-center white-bg p-5 h-100">
                         <div class="circle-icon mb-2">
-                            <span class="ti-alert color-primary icon-lg"></span>
+                            <span><img src="<?=base_url()?>includes/frontend/img/spot-icon3.png" width="40" alt="home-icon1" class="img-fluid"></span>
                         </div>
                         <h5>Standar Laboratorium</h5>
                         <p>Seluruh produk Solo Clean dihasilkan melalui standar laboratorium</p>
@@ -219,54 +219,29 @@
                                         functionalized relationships. Efficiently reinvent cross-media infomediaries
                                         through mission-critical manufactured products conveniently.</p>
                                 </div>
-                                <div class="tab-pane" id="tab6-2">
-                                    <p>Monotonectally embrace enabled innovation before
-                                        collaborative niches. Interactively deploy ubiquitous synergy whereas process
-                                        improvements.</p>
-                                    <p>Objectively pursue resource sucking bandwidth vis-a-vis high
-                                        standards in portals. Objectively scale highly efficient deliverables
-                                        intermandated. Enthusiastically underwhelm ubiquitous quality vectors.</p>
-                                </div>
-                                <div class="tab-pane" id="tab6-3">
-                                    <p>Globally recaptiualize progressive leadership before
-                                        standards compliant
-                                        models. Seamlessly morph clicks-and-mortar niche markets.</p>
-                                    <p>Enthusiastically underwhelm ubiquitous quality vectors
-                                        through sustainable platforms. Rapidiously innovate fully researched platforms
-                                        after seamless technologies.Objectively scale highly globally.</p>
-                                </div>
-                                <div class="tab-pane" id="tab6-4">
-                                    <p>Seamlessly reintermediate enterprise solutions via vertical
-                                        materials.
-                                        Dynamically disseminate world-class niches whereas market-driven
-                                        potentialities. </p>
-                                    <p>Quickly conceptualize backend portals without reliable
-                                        e-business. Interactively evolve synergistic models rather than revolutionary
-                                        initiatives. Enthusiastically underwhelm ubiquitous quality vectors uniquely incubate.</p>
-                                </div>
                             </div>
                             <ul class="nav nav-tabs feature-tab feature-tab-circle" data-tabs="tabs">
                                 <li class="nav-item">
                                     <a class="active h6" href="<?=base_url()?>#tab6-1" data-toggle="tab">
-                                        <span class="flaticon-cardiogram"></span>
+                                        <span><img src="<?=base_url()?>includes/frontend/img/tentang-icon1.png" width="40" alt="home-icon1" class="img-fluid features-icon"></span>
                                     </a>
                                     Heart Monitor
                                 </li>
                                 <li class="nav-item">
-                                    <a class="h6" href="<?=base_url()?>#tab6-2" data-toggle="tab">
-                                        <span class="flaticon-blood-pressure"></span>
+                                    <a class="active h6" href="<?=base_url()?>#tab6-2" data-toggle="tab">
+                                        <span><img src="<?=base_url()?>includes/frontend/img/tentang-icon2.png" width="40" alt="home-icon2" class="img-fluid features-icon"></span>
                                     </a>
                                     Blood Pressure
                                 </li>
                                 <li class="nav-item">
-                                    <a class="h6" href="<?=base_url()?>#tab6-3" data-toggle="tab">
-                                        <span class="flaticon-bell"></span>
+                                    <a class="active h6" href="<?=base_url()?>#tab6-3" data-toggle="tab">
+                                        <span><img src="<?=base_url()?>includes/frontend/img/tentang-icon3.png" width="40" alt="home-icon3" class="img-fluid features-icon"></span>
                                     </a>
                                     Alarm Alert
                                 </li>
                                 <li class="nav-item">
-                                    <a class="h6" href="<?=base_url()?>#tab6-4" data-toggle="tab">
-                                        <span class="flaticon-hand-finger-pressing-a-circular-ring-button"></span>
+                                    <a class="active h6" href="<?=base_url()?>#tab6-4" data-toggle="tab">
+                                        <span><img src="<?=base_url()?>includes/frontend/img/tentang-icon4.png" width="40" alt="home-icon4" class="img-fluid features-icon"></span>
                                     </a>
                                     Fingerprint lock
                                 </li>
@@ -384,8 +359,8 @@
                     <h2>Beli produk <span>Solo Clean</span> sekarang</h2>
                         <p class="lead">Dapatkan promo-promo menarik dengan berbelanja di markeplace kesayangan kalian dan pastikan kalian selalu sedia produk Solo Clean dimanapun kalian berada. </p>
                         <div class="download-btn pt-2">
-                            <a href="https://www.tokopedia.com/soloclean?source=universe&st=product" target="_blank" class="btn google-play-btn mr-3"> Tokopedia</a>
-                            <a href="https://shopee.co.id/solocleanofficial" target="_blank" class="btn app-store-btn"> Shopee</a>
+                            <a href="https://www.tokopedia.com/soloclean?source=universe&st=product" target="_blank" class="btn custom-btn"><img src="<?=base_url()?>includes/frontend/img/icon-tokopedia-putih.png" width="100" alt="logo" class="img-fluid"></a>
+                            <a href="https://shopee.co.id/solocleanofficial" target="_blank" class="btn custom-btn"><img src="<?=base_url()?>includes/frontend/img/icon-shopee-putih.png" width="100" alt="logo" class="img-fluid"></a>
                         </div>
                     </div>
                 </div>
@@ -514,7 +489,7 @@
                 <div class="col-lg-3">
                     <div class="footer-nav-wrap text-white">
                         <h5 class="mb-3 text-white">Location</h5>
-                        <img src="<?=base_url()?>includes/frontend/img/map.png" alt="location map" class="img-fluid">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.212808998264!2d106.64503281527078!3d-6.2356557628011275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fbef15d96d27%3A0x725c5c4ee3416eed!2sPT%20Kirana%20Almega%20Mulia!5e0!3m2!1sen!2sid!4v1630037343548!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>

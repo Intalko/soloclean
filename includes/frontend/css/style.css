@@ -333,6 +333,13 @@ strong, b{
     color: #01020c;
 }
 
+.custom-btn{
+    background:transparent;
+    border-color: #ffffff;
+    color: #01020c;
+    border-radius: 30px;
+}
+
 /*form field css*/
 .form-control{
     border-color: #ebebeb;
@@ -1812,7 +1819,7 @@ select.form-control.has-value{
 }
 .icon-box span{
     font-size: 25px;
-    line-height: 55px;
+    line-height: 50px;
     margin-bottom: 15px;
 }
 .icon-box img{
@@ -1970,6 +1977,9 @@ select.form-control.has-value{
     text-align: center;
     margin: auto;
     background: #ffffff;
+}
+.features-icon{
+    margin-top:12%;
 }
 .feature-tab-circle li a span:before{
     font-size: 26px;
