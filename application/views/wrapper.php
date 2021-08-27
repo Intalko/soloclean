@@ -180,7 +180,7 @@
                             <span><img src="<?=base_url()?>includes/frontend/img/spot-icon2.png" width="40" alt="home-icon1" class="img-fluid"></span>
                         </div>
                         <h5>Non-Toxic</h5>
-                        <p>Produk Solo Clean dinyatakan bebas dari bahan beracun.</p>
+                        <p>Produk Solo Clean dinyatakan bebas dari bahan beracun</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4">
@@ -260,7 +260,7 @@
                 <div class="col-md-8">
                     <div class="section-heading text-center mb-4">
                         <h2>Beli produk <span>Solo Clean</span> sekarang</h2>
-                        <p class="lead">Dapatkan promo-promo menarik dengan berbelanja di markeplace kesayangan kalian dan pastikan kalian selalu sedia produk Solo Clean dimanapun kalian berada. </p>
+                        <p class="lead">Dapatkan promo-promo menarik dengan berbelanja di markeplace kesayangan <br/>kalian dan pastikan kalian selalu sedia produk Solo Clean <br/>dimanapun kalian berada. </p>
                     </div>
                 </div>
             </div>
