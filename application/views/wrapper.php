@@ -458,15 +458,25 @@
             <div class="row justify-content-around">
                 <div class="col-lg-4 mb-3 mb-lg-0">
                     <div class="footer-nav-wrap text-white">
-                        <img src="<?=base_url()?>includes/frontend/img/logo-white-red.png" alt="footer logo" width="120" class="img-fluid mb-3">
+                        <img src="<?=base_url()?>includes/frontend/img/logo-white.png" alt="footer logo" width="120" class="img-fluid mb-3">
                         <p>Rasakan kebaikan dari produk Sanitasi SOLO karena Lebih Baik SOLO</p>
 
                         <div class="social-list-wrap">
                             <ul class="social-list list-inline list-unstyled">
-                                <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100069411781346" target="_blank" title="Facebook"><span
-                                        class="ti-facebook"></span></a></li>
                                 <li class="list-inline-item"><a href="https://www.instagram.com/solocleanid/" target="_blank"
                                         title="Instagram"><span class="ti-instagram"></span></a>
+                                </li>
+                                <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100069411781346" target="_blank" title="Facebook"><span
+                                        class="ti-facebook"></span></a></li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/profile.php?id=100069411781346" target="_blank" title="Facebook">
+                                    <span style="width:27px;"><img src="<?=base_url()?>includes/frontend/img/footer-tokopedia.png" width="15" alt="footer-icon1" class="img-fluid" style="margin-top:10%"></span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.facebook.com/profile.php?id=100069411781346" target="_blank" title="Facebook">
+                                        <span style="width:27px;"><img src="<?=base_url()?>includes/frontend/img/footer-shopee.png" width="15" alt="footer-icon2" class="img-fluid"></span>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
