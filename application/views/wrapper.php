@@ -109,7 +109,7 @@
                 <div class="col-md-6 col-lg-6">
                     <div class="hero-content-left pt-5">
                         <h1>Rasakan kebaikan dari produk <span> Sanitasi Solo </span></h1>
-                        <p class="lead">Kenyamanan dan kebersihan merupakan modal utama kita untuk dapat melangkah lebih jauh.</p>
+                        <p class="lead">Kenyamanan dan kebersihan merupakan modal utama kita untuk dapat melangkah lebih jauh. <br/>Pastikan Anda selalu terjaga dengan produk-produk berkualitas.</p>
 
                         <!--core feature list start-->
                         <ul class="list-inline py-4 core-feature-list d-flex">
@@ -394,7 +394,7 @@
                 </div>
                 <div class="col-md-7">
                     <form action="#" method="POST" id="contactForm1" class="contact-us-form" novalidate="novalidate">
-                        <h5>Reach us quickly</h5>
+                        <h5>Hubungi Kami</h5>
                         <div class="row">
                             <div class="col-sm-6 col-12">
                                 <div class="form-group">
@@ -469,12 +469,12 @@
                                 <li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=100069411781346" target="_blank" title="Facebook"><span
                                         class="ti-facebook"></span></a></li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/profile.php?id=100069411781346" target="_blank" title="Facebook">
+                                    <a href="https://www.tokopedia.com/soloclean?source=universe&st=product" target="_blank" title="Tokopedia">
                                     <span style="width:27px;"><img src="<?=base_url()?>includes/frontend/img/footer-tokopedia.png" width="15" alt="footer-icon1" class="img-fluid" style="margin-top:10%"></span>
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/profile.php?id=100069411781346" target="_blank" title="Facebook">
+                                    <a href="https://shopee.co.id/solocleanofficial" target="_blank" title="Shopee">
                                         <span style="width:27px;"><img src="<?=base_url()?>includes/frontend/img/footer-shopee.png" width="15" alt="footer-icon2" class="img-fluid"></span>
                                     </a>
                                 </li>
@@ -486,10 +486,10 @@
                     <div class="footer-nav-wrap text-white">
                         <h5 class="mb-3 text-white">Link Lainnya</h5>
                         <ul class="list-unstyled">
-                            <li class="mb-2"><a href="<?=base_url()?>#">Tentang Solo</a></li>
-                            <li class="mb-2"><a href="<?=base_url()?>#">Produk Solo</a></li>
-                            <li class="mb-2"><a href="<?=base_url()?>#">Beli Produk Solo</a></li>
-                            <li class="mb-2"><a href="<?=base_url()?>#">Hubungi Kami</a></li>
+                            <li class="mb-2"><a href="<?=base_url()?>#features">Tentang Solo</a></li>
+                            <li class="mb-2"><a href="<?=base_url()?>#product">Produk Solo</a></li>
+                            <li class="mb-2"><a href="<?=base_url()?>#product">Beli Produk Solo</a></li>
+                            <li class="mb-2"><a href="<?=base_url()?>#contact">Hubungi Kami</a></li>
                         </ul>
                     </div>
                 </div>
