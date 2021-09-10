@@ -271,10 +271,9 @@
                         <div class="single-product rounded shadow-sm white-bg">
                             <img src="<?=base_url()?>includes/frontend/img/product-1.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
-                                <h4 class="mb-1">Product title one</h4>
+                                <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
-                                    <del>$79.00</del>
-                                    <span>$60.00</span></h5>
+                                    <span>100ml (flip bottle)</span></h5>
                                 <a href="<?=base_url()?>#" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
                             </div>
                         </div>
