@@ -267,6 +267,7 @@
             <!--start product carousel-->
             <div class="product-wrap pt-4">
                 <div class="product-carousel owl-carousel owl-theme dot-indicator">
+                    <!-- INPUT SOLO HAND SOAP -->
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
                             <img src="<?=base_url()?>includes/frontend/img/solohandsoap/100ml-apple-hsp.png" class="img-fluid p-4" alt="product"/>
@@ -312,6 +313,8 @@
                             </div>
                         </div>
                     </div>
+                    <!-- END INPUT SOLO HAND SOAP -->
+                    <!-- INPUT SOLO GLASS CLEANER -->
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
                             <img src="<?=base_url()?>includes/frontend/img/sologlasscleaner/500L-glass-cleaner.png" class="img-fluid p-4" alt="product"/>
@@ -321,6 +324,27 @@
                             </div>
                         </div>
                     </div>
+                    <!-- END INPUT SOLO GLASS CLEANER -->
+                    <!-- INPUT SOLO DISINFECTANT CLEANER -->
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/solodisnfectantcleaner/150ml-disinfectant cleaner.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo Disinfectant Cleaner</h4>
+                                <a href="https://tokopedia.link/u6bU277Pqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/solodisnfectantcleaner/500ml-disinfectant cleaner.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo Disinfectant Cleaner</h4>
+                                <a href="https://tokopedia.link/L72oP08Pqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END INPUT SOLO DISINFECTANT CLEANER -->
                 </div>
             </div>
             <!--end product carousel-->
