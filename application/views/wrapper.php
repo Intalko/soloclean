@@ -291,7 +291,7 @@
                     </div>
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
-                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/500ml-strawberry-hsp.png" class="img-fluid p-4" alt="product"/>
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/500ml-strawberry-hs.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
                                 <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
@@ -302,7 +302,7 @@
                     </div>
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
-                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/5L-matcha-hsp.png" class="img-fluid p-4" alt="product"/>
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/5L-matcha-hs.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
                                 <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
@@ -313,7 +313,7 @@
                     </div>
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
-                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/20L-strawberry-hsp.png" class="img-fluid p-4" alt="product"/>
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/20L-strawberry-hs.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
                                 <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
