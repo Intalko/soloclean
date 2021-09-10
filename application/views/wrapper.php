@@ -374,6 +374,44 @@
                         </div>
                     </div>
                     <!-- END INPUT SOLO HAND SANITIZER -->
+                    <!-- INPUT SOLO ALL CLEANER -->
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/soloallcleaner/250ml - all cleaner.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo All Cleanerer</h4>
+                                <a href="https://tokopedia.link/UKf0N7lQqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsanitizer/500ml - all cleaner.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo All Cleaner</h4>
+                                <a href="https://tokopedia.link/70NaHEmQqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsanitizer/5L - all cleaner.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo All Cleaner</h4>
+                                <a href="https://tokopedia.link/2dRf66mQqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsanitizer/20L - all cleaner.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo All Cleaner</h4>
+                                <a href="https://tokopedia.link/0hF8caoQqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END INPUT SOLO ALL CLEANER -->
                 </div>
             </div>
             <!--end product carousel-->
