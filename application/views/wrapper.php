@@ -269,36 +269,34 @@
                 <div class="product-carousel owl-carousel owl-theme dot-indicator">
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
-                            <img src="<?=base_url()?>includes/frontend/img/product-1.png" class="img-fluid p-4" alt="product"/>
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/100ml-apple-hsp.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
                                 <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
                                     <span>100ml (flip bottle)</span></h5>
-                                <a href="<?=base_url()?>#" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                                <a href="https://tokopedia.link/GA7OavOPqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
-                            <img src="<?=base_url()?>includes/frontend/img/product-2.png" class="img-fluid p-4" alt="product"/>
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/250ml-apple-hsp.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
-                                <h4 class="mb-1">Product title one</h4>
+                                <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
-                                    <del>$89.00</del>
-                                    <span>$65.00</span></h5>
-                                <a href="<?=base_url()?>#" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                                    <span>250ml (pump)</span></h5>
+                                <a href="https://tokopedia.link/8kzi0ZQPqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
-                            <img src="<?=base_url()?>includes/frontend/img/product-3.png" class="img-fluid p-4" alt="product"/>
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsoap/500ml-apple-hsp.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
-                                <h4 class="mb-1">Product title one</h4>
+                                <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
-                                    <del>$59.00</del>
-                                    <span>$35.00</span></h5>
-                                <a href="<?=base_url()?>#" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                                    <span>500ml (pump)</span></h5>
+                                <a href="https://tokopedia.link/6IV0Ax3Pqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -306,11 +304,10 @@
                         <div class="single-product rounded shadow-sm white-bg">
                             <img src="<?=base_url()?>includes/frontend/img/product-4.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
-                                <h4 class="mb-1">Product title one</h4>
+                                <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
-                                    <del>$170.00</del>
-                                    <span>$140.00</span></h5>
-                                <a href="<?=base_url()?>#" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                                    <span>5 liter (jerigen)</span></h5>
+                                <a href="https://tokopedia.link/607CWgSPqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -318,11 +315,10 @@
                         <div class="single-product rounded shadow-sm white-bg">
                             <img src="<?=base_url()?>includes/frontend/img/product-5.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
-                                <h4 class="mb-1">Product title one</h4>
+                                <h4 class="mb-1">Solo Hand Soap</h4>
                                 <h5 class="product-price">
-                                    <del>$99.00</del>
-                                    <span>$79.00</span></h5>
-                                <a href="<?=base_url()?>#" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                                    <span>20 liter (jerigen)</span></h5>
+                                <a href="https://tokopedia.link/182zjnTPqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
                             </div>
                         </div>
                     </div>
