@@ -345,6 +345,35 @@
                         </div>
                     </div>
                     <!-- END INPUT SOLO DISINFECTANT CLEANER -->
+                    <!-- INPUT SOLO HAND SANITIZER -->
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsanitizer/60ml - hand sanitizer.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo Hand Sanitizer</h4>
+                                <a href="https://tokopedia.link/3UXB2jjQqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsanitizer/60ml - hand sanitizer -foam.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo Hand Sanitizer</h4>
+                                <a href="https://tokopedia.link/qH3KgSjQqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="single-product rounded shadow-sm white-bg">
+                            <img src="<?=base_url()?>includes/frontend/img/solohandsanitizer/1L - hand sanitizer.png" class="img-fluid p-4" alt="product"/>
+                            <div class="product-info text-center pb-4 px-3">
+                                <h4 class="mb-1">Solo Hand Sanitizer</h4>
+                                <a href="https://tokopedia.link/8NHEptkQqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END INPUT SOLO HAND SANITIZER -->
                 </div>
             </div>
             <!--end product carousel-->
