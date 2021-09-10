@@ -324,13 +324,12 @@
                     </div>
                     <div class="item">
                         <div class="single-product rounded shadow-sm white-bg">
-                            <img src="<?=base_url()?>includes/frontend/img/product-6.png" class="img-fluid p-4" alt="product"/>
+                            <img src="<?=base_url()?>includes/frontend/img/sologlasscleaner/500L-glass-cleaner.png" class="img-fluid p-4" alt="product"/>
                             <div class="product-info text-center pb-4 px-3">
-                                <h4 class="mb-1">Product title one</h4>
+                                <h4 class="mb-1">Solo Glass Cleaner</h4>
                                 <h5 class="product-price">
-                                    <del>$179.00</del>
-                                    <span>$160.00</span></h5>
-                                <a href="<?=base_url()?>#" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
+                                    <span>500ml (spray)</span></h5>
+                                <a href="https://tokopedia.link/930dxD4Pqjb" class="btn secondary-btn"><span class="ti-shopping-cart"></span> Buy Now</a>
                             </div>
                         </div>
                     </div>
