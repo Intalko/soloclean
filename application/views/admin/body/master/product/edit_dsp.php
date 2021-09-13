@@ -22,20 +22,7 @@
                 <label for="nama_product">Nama Product</label>
                 <input type="text" class="form-control" id="nama_produk" name="nama_produk" value="<?=$data['nama_produk']?>">
               </div>
-              <div class="form-group">
-                <input id="promo" type="checkbox" name="featured" value="1" <?php if($data['featured'] == 1){?>checked<?php } ?>><label for="promo">Featured
-                </label>
-              </div>
-              
-              <div class="form-group">
-                <label for="id_kategori">Kategori</label>
-                <select id="id_kategori" name="id_kategori" class="form-control">
-                  <?php foreach($data2 as $row) {?>
-                    <option <?php if($row['id'] == $data['id_kategori']) {?>selected<?php }?> value="<?=$row['id']?>"><?=$row['nama_kategori']?></option>
-                  <?php } ?>
-                </select>
-              </div>
-              
+             
 
               <div class="form-group">
                 <label for="produk_image">Image Produk</label>
@@ -43,11 +30,11 @@
                 <input type="file" name="produk_image" id="produk_image" class="form-control" />
               </div>
 
-
               <div class="form-group">
-                <label for="description">Deskripsi Product</label>
-                <textarea name="penjelasan" id="description" placeholder="Tulis Deskripsi Produk anda" class="form-control"><?=$data['penjelasan']?></textarea>
+                <label for="link_produk">Link produk (Tokopedia Or Shopee)</label>
+                <input type="text" class="form-control" id="link_produk" name="link_produk" value="<?=$data['link_produk']?>">
               </div>
+
             </div><!-- /.box-body -->
             <div class="box-footer">
               <button type="submit" class="btn btn-primary">Submit</button>
