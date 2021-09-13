@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- SEO Meta description -->
-    <meta name="description"
-          content="Solo Clean in Development">
+    <meta name="description" content="Solo Clean in Development">
     <meta name="author" content="ThemeTags">
 
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
@@ -20,7 +19,7 @@
     <meta property="og:type" content="article"/>
 
     <!--title-->
-    <title>Solo Clean in Development</title>
+    <title><?= $title ?></title>
 
     <!--favicon icon-->
     <link rel="icon" href="<?=base_url()?>includes/frontend/img/favicon.png" type="image/png" sizes="32x32">
