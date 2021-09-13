@@ -129,12 +129,12 @@ class Product extends CI_Controller {
     }else{
       $id = $post['id'];
       unset($post['id']);
-	  if(!isset($post['featured'])){
-		  $post['featured'] = 0;
-	  }
+      if(!isset($post['featured'])){
+        $post['featured'] = 0;
+      }
       //VALIDATE TO DATABASE
       $exist = $this->Model_Get_Produk->validate(TABLE,$post['nama_produk']);
-	  $product = $this->Model_Get_Produk->Update_Select(TABLE,'id',$id);
+	    $product = $this->Model_Get_Produk->Update_Select(TABLE,'id',$id);
       //print_r($exist);exit;
       if(!empty($exist) && ($exist!=$id)){
         echo '<script>alert("Product Sudah Ada"); window.location.assign("'.base_url().'Admin/Product/Perbarui/'.$id.'");</script>';
@@ -147,92 +147,24 @@ class Product extends CI_Controller {
         //CHECK UPLOAD IMAGE FIRST
         $filename = $_FILES['produk_image']['name'];
         if(!empty($filename)){
-			if(!empty($product[0]['produk_image'])){
-				unlink(BASEPATH.'../'.$product[0]['produk_image']);
-			}
-			$ext = pathinfo($filename, PATHINFO_EXTENSION);
-			//FOR FILE NAME
-			$fileName = str_replace(' ','_',strtolower($post['nama_produk']));
-			//FOR UPLOAD
-			$config['file_name'] = $fileName;
-			$this->upload->initialize($config);
+          if(!empty($product[0]['produk_image'])){
+            unlink(BASEPATH.'../'.$product[0]['produk_image']);
+          }
+          $ext = pathinfo($filename, PATHINFO_EXTENSION);
+          //FOR FILE NAME
+          $fileName = str_replace(' ','_',strtolower($post['nama_produk']));
+          //FOR UPLOAD
+          $config['file_name'] = $fileName;
+          $this->upload->initialize($config);
 
-			if(!$this->upload->do_upload('produk_image')){
-				$error = $this->upload->display_errors();
-				echo $error; exit;
-			}else{
-				$post['produk_image'] = 'includes/assets/'.$fileName.'.'.$ext;
-			}
+          if(!$this->upload->do_upload('produk_image')){
+            $error = $this->upload->display_errors();
+            echo $error; exit;
+          }else{
+            $post['produk_image'] = 'includes/assets/'.$fileName.'.'.$ext;
+          }
         }else{
-			unset($post['produk_image']);
-        }
-        //CHECK FILE IMAGE SECOND
-        $filename2 = $_FILES['produk_image2']['name'];
-        if(!empty($filename2)){
-			if(!empty($product[0]['produk_image2'])){
-				unlink(BASEPATH.'../'.$product[0]['produk_image2']);
-			}
-			$ext2 = pathinfo($filename2, PATHINFO_EXTENSION);
-			//FOR FILE NAME
-			$fileName2 = str_replace(' ','_',strtolower($post['nama_produk'])).'image2';
-			//FOR UPLOAD
-			$config['file_name'] = $fileName2;
-			$this->upload->initialize($config);
-
-			if(!$this->upload->do_upload('produk_image2')){
-				$error = $this->upload->display_errors();
-				echo $error; exit;
-			}else{
-				$post['produk_image2'] = 'includes/assets/'.$fileName2.'.'.$ext2;
-			}
-		}else{
-			unset($post['produk_image2']);
-		}
-		
-		//CHECK FILE IMAGE THIRD
-        $filename3 = $_FILES['produk_image3']['name'];
-        if(!empty($filename3)){
-			if(!empty($product[0]['produk_image3'])){
-				unlink(BASEPATH.'../'.$product[0]['produk_image3']);
-			}
-			$ext3 = pathinfo($filename3, PATHINFO_EXTENSION);
-			//FOR FILE NAME
-			$fileName3 = str_replace(' ','_',strtolower($post['nama_produk'])).'image3';
-			//FOR UPLOAD
-			$config['file_name'] = $fileName3;
-			$this->upload->initialize($config);
-
-			if(!$this->upload->do_upload('produk_image3')){
-				$error = $this->upload->display_errors();
-				echo $error; exit;
-			}else{
-				$post['produk_image3'] = 'includes/assets/'.$fileName3.'.'.$ext3;
-			}
-		}else{
-			unset($post['product_image3']);
-		}
-		
-		//CHECK FILE IMAGE FOURTH
-        $filename4 = $_FILES['produk_image4']['name'];
-        if(!empty($filename4)){
-			if(!empty($product[0]['produk_image4'])){
-				unlink(BASEPATH.'../'.$product[0]['produk_image4']);
-			}
-			$ext4 = pathinfo($filename4, PATHINFO_EXTENSION);
-			//FOR FILE NAME
-			$fileName4 = str_replace(' ','_',strtolower($post['nama_produk'])).'image4';
-			//FOR UPLOAD
-			$config['file_name'] = $fileName4;
-			$this->upload->initialize($config);
-
-			if(!$this->upload->do_upload('produk_image4')){
-				$error = $this->upload->display_errors();
-				echo $error; exit;
-			}else{
-				$post['produk_image4'] = 'includes/assets/'.$fileName4.'.'.$ext4;
-			}
-        }else{
-            unset($post['produk_image4']);
+          unset($post['produk_image']);
         }
 
         //UPDATE TO DATABASE
