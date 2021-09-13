@@ -52,38 +52,39 @@
     <!-- sidebar menu: : style can be found in sidebar.less -->
     <ul class="sidebar-menu">
       <li class="header">Menu Utama</li>
+      <!-- DASHBOARD
       <li class="<?php if($bc == 'dashboard'){?>active<?php }?>">
         <a href="<?= base_url()?>admin/dashboard">
           <i class="fa fa-laptop"></i>
           <span>DASHBOARD</span>
         </a>
-      </li>
+      </li> -->
 
-      <!-- PRODUCT MANAGEMENT -->
+      <!-- CATEGORY MANAGEMENT 
       <li class="<?php if(!empty($bc)&&$bc == 'kategori'){?>active<?php }?> treeview">
         <a href="#"><i class="fa fa-user"></i> KATEGORI<i class="fa fa-angle-left pull-right"></i></a>
             <ul class="treeview-menu">
               <li class="<?php if(!empty($msbc)&&$msbc == 'kategori'){?>active<?php }?>"><a href="<?= base_url()?>Admin/Category"><i class="fa fa-list "></i> DAFTAR CATEGORY</a></li>
               <li class="<?php if(!empty($msbc)&&$msbc == 'kategori'){?>active<?php }?>"><a href="<?= base_url()?>Admin/Category/Tambah"><i class="fa fa-plus-square"></i> TAMBAH CATEGORY</a></li>
             </ul>
-      </li>
+      </li> -->
 	  
 	  <!-- PRODUCT MANAGEMENT -->
       <li class="<?php if(!empty($bc)&&$bc == 'produk'){?>active<?php }?> treeview">
         <a href="#"><i class="fa fa-user"></i> PRODUK<i class="fa fa-angle-left pull-right"></i></a>
-			<ul class="treeview-menu">
-			  <li class="<?php if(!empty($msbc)&&$msbc == 'produk'){?>active<?php }?>"><a href="<?= base_url()?>Admin/Product"><i class="fa  fa-list "></i> DAFTAR PRODUCT</a></li>
-			  <li class="<?php if(!empty($msbc)&&$msbc == 'produk'){?>active<?php }?>"><a href="<?= base_url()?>Admin/Product/Tambah"><i class="fa fa-plus-square"></i> TAMBAH PRODUCT</a></li>
-			</ul>
+			  <ul class="treeview-menu">
+          <li class="<?php if(!empty($msbc)&&$msbc == 'produk'){?>active<?php }?>"><a href="<?= base_url()?>Admin/Product"><i class="fa  fa-list "></i> DAFTAR PRODUCT</a></li>
+          <li class="<?php if(!empty($msbc)&&$msbc == 'produk'){?>active<?php }?>"><a href="<?= base_url()?>Admin/Product/Tambah"><i class="fa fa-plus-square"></i> TAMBAH PRODUCT</a></li>
+			  </ul>
       </li>
 	  
-	  <!-- List Transaksi-->
+	  <!-- TRANSACTION MANAGEMENT
 	  <li class="<?php if($bc == 'transaksi'){?>active<?php }?>">
         <a href="<?= base_url()?>admin/transaksi">
           <i class="fa fa-laptop"></i>
           <span>TRANSAKSI</span>
         </a>
-      </li>
+    </li>-->
 	  
 	  
 
