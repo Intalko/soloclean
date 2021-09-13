@@ -14,10 +14,7 @@ class Welcome extends CI_Controller {
 	public function index(){
 		$view_data['title'] = 'Home';
 		$prod = $this->Model_Get_Produk->Normal_Select('produk');
-		print_r($prod);
-		$view_data['kategori'] = $sess;
-		$view_data['start'] = $kategori_rand[0]['id'];
-		$view_data['rand_kategori'] = $kategori_rand;
+		$view_data['produk'] = $prod;
 		
 		//print_r($sess);exit;
 		//print_r($view_data);exit;
