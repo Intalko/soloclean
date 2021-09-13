@@ -489,7 +489,7 @@
                         Serpong Utara, Tangerang Selatan - Banten 15325</p>
                         <ul>
                             <li><span>Hubungi kami: 021 - 5312 5355 </span></li>
-                            <li><span>Email : <a href="<?=base_url()?>mailto:info@soloclean.id">info@soloclean.id</a></span>
+                            <li><span>Email : <a href="mailto:info@soloclean.id">info@soloclean.id</a></span>
                             </li>
                         </ul>
                     </div>
