@@ -80,16 +80,6 @@ class Product extends CI_Controller {
     if(empty($post)){
       echo('Anda tidak bisa mengakses laman ini');exit;
     }else{
-      $post_seo = array(
-        'seo_title' => $post['seo_title'],
-        'seo_keywords' => $post['seo_keywords'],
-        'seo_description' => $post['seo_description'],
-        'seo_author' => $post['seo_author'],
-      );
-      unset($post['seo_title']);
-      unset($post['seo_keywords']);
-      unset($post['seo_description']);
-      unset($post['seo_author']);
       //VALIDATE TO DATABASE
       $exist = $this->Model_Get_Produk->validate(TABLE,$post['nama_produk']);
       if($exist==1){
