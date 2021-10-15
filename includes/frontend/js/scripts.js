@@ -100,10 +100,10 @@ jQuery(function ($) {
         items: 3
       },
       1200: {
-        items: 4
+        items: 8
       },
       1920: {
-        items: 4
+        items: 8
       }
     }
   });
