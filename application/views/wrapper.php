@@ -48,6 +48,20 @@
     <link rel="stylesheet" href="<?=base_url()?>includes/frontend/css/style.css">
     <!--responsive css-->
     <link rel="stylesheet" href="<?=base_url()?>includes/frontend/css/responsive.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-186814791-2">
+    </script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-186814791-2');
+    gtag('config', 'AW-10788979079');
+    gtag('config', 'AW-10788979079/veNhCKUFEIeDy5go', {
+        'phone_conversion_number': '081808533319'
+    });
+    </script>
 </head>
 <body>
 
@@ -467,5 +481,6 @@
 <script src="<?=base_url()?>includes/frontend/js/owl.carousel.min.js"></script>
 <!--custom js-->
 <script src="<?=base_url()?>includes/frontend/js/scripts.js"></script>
+
 </body>
 </html>
